@@ -1,0 +1,159 @@
+body{
+    background-color: #F7F7F7;
+    color: #505459;
+    background: url("/images/bg.gif") repeat scroll 119px top #E8E8E8;
+}
+.navbar{
+    background-color: inherit;
+}
+.navbar .brand, .navbar .nav>li>a {
+    color: #64686D;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 20px 15px;
+    line-height: 20px;
+}
+.navbar-brand{
+    padding:0;
+    display: inline-block;
+}
+.navbar-brand img{
+    height:60px;
+}
+.sidebar h4{
+    margin:0;
+    padding:10px 0;
+}
+.lastNews > h4{
+    background: url("/images/edit11.png") no-repeat scroll top center transparent;
+    padding: 10px;
+}
+.lastNews{
+    background: url("/images/edit12.png") no-repeat scroll bottom center transparent;
+    border-radius: 10px;
+}
+.lastNews .list-group{
+    padding:20px 10px;
+}
+
+.lastNews .list-group a:hover{
+    background: url("/images/edit21.png") no-repeat scroll top center transparent;
+}
+
+.lastArticles > h4{
+    background: url("/images/edit21.png") no-repeat scroll top center transparent;
+    padding: 10px;
+}
+.lastArticles{
+    background: url("/images/edit22.png") no-repeat scroll bottom center transparent;
+    border-radius: 10px;
+}
+.lastArticles .list-group{
+    padding:20px 10px;
+}
+.lastArticles .list-group a:hover{
+    background: url("/images/edit11.png") no-repeat scroll top center transparent;
+}
+
+
+.list-group a{
+    background-color: transparent;
+    border:none;
+    border-radius:5px;
+}
+
+.header{
+    background: url(/images/header.jpg) center top no-repeat;
+    background-size: cover;
+    height:450px;
+    position:relative;
+}
+.navbar{
+    border:none;
+}
+
+.header > nav{
+    position: absolute;
+    width:70%;
+    height:450px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:250px;
+}
+
+.header-menu{
+    float:right;
+    font: 17px "LobsterRegular";
+}
+
+.header > .phones{
+    position:absolute;
+    width:65%;
+    top:325px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.header > .phones p{
+    font:18px "LobsterRegular";
+    line-height: 18px;
+}
+.header > .phones p span{
+    margin:0 10px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 220px;
+}
+#footer .col-md-12{
+    position: absolute;
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    height: 220px;
+    background: url(/images/footer.png) no-repeat center bottom;
+    background-size:cover;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .footer {
+    background-color: #f5f5f5;
+}
+.container .footer nav {
+    margin: 4px 0;
+}
+
+.container .footer nav a {
+    margin: 0 10px;
+    color: white;
+    font: 17px "LobsterRegular";
+}
+
+
+@font-face {
+    font-family: 'LobsterRegular';
+    src: url('lobster-webfont.eot');
+    src: local('☺'), url('/css/lobster-webfont.woff') format('woff'), url('/css/lobster-webfont.ttf') format('truetype'), url('/css/lobster-webfont.svg#Lobster1.4Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "LobsterRegular";
+}
