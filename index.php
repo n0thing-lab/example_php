@@ -1,5 +1,5 @@
 <?php
-include("/include/init.php");
+include($_SERVER['DOCUMENT_ROOT']."/include/init.php");
 
 $query = mysql_query("select * from pages where id = 1");
 $row = mysql_fetch_assoc($query);
